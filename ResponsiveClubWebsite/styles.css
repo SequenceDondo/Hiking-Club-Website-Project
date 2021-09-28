@@ -1,0 +1,101 @@
+body {
+    background-color:rgb(214, 70, 26);
+    font-family:cursive;
+    font-size: 16px;
+    
+}
+
+nav {
+    padding: 1 em;
+    background-color:rgb(214, 162, 113);
+    word-spacing: 10px;
+    border:rgb(26, 25, 25) 5px solid;
+    
+}
+
+nav a {
+    color:rgb(20, 19, 19);  
+    list-style: none;
+    display: inline-block;
+    margin: auto; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;   
+}
+
+.intro {
+    background-image: url('./images/Lake-2021-05-08-03-20-56.png');  
+    height: 30rem;
+    padding-top: 1rem; 
+    background-position: center;
+    background-repeat: none;
+     
+}
+
+.intro img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    
+}
+
+.intro h1 {
+    color: rgb(41, 34, 34);
+    font-size: 3rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color:rgba(241, 232, 232, 0.5);
+    text-align: center;
+  }
+
+
+.content h2 {
+    color:green;
+}
+
+.images img {
+    width: 25em;
+    display: inline-flex;
+    padding: 1em;
+}
+
+.testimony {
+    background-color: lightseagreen;
+    padding: 2em;
+}
+
+.pictures img {
+    display: inline-flex;
+    width:25em;
+    padding:1em;
+}
+
+.join{
+    text-align: center;
+    color: limegreen;
+    font-size: 2em;
+}
+.join img {
+    width: 15em;
+}
+
+@media only screen and (max-width:640px) {
+    .intro h1 {
+        margin-top: 2rem;
+      }
+    
+      .intro {
+        max-height: 200px;
+      } 
+
+      .images img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+     
+    }
+    
+    
+  
